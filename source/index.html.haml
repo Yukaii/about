@@ -1,0 +1,32 @@
+---
+title: About Yukai
+---
+
+-# #water1
+-# #water2
+-# #water3
+
+.header
+  =image_tag 'head.png', id: 'head-img', width: '150px', height: '150px'
+  #social-icons 
+    %a{:href => 'https://www.facebook.com/yukaihuang93'}
+      .icon=image_tag 'facebook44.png', height: '28px'
+    %a{:href => '#'}
+      .icon=image_tag 'social71.png', height: '28px'
+    %a{:href => 'https://plus.google.com/u/0/+黃鈺凱93'}
+      .icon=image_tag 'social92.png', height: '28px'   
+    %a{:href => 'http://github.com/yukaihuang1993'}
+      .icon=image_tag 'github7.png', height: '28px'         
+  %h1#title Yukai H.
+
+.container
+  %section
+  %section
+    %h2 Q: Please describe yourself in 1 sentence
+    %p 想太多
+  %section
+    %h2= lorem.words 4
+    %p= lorem.paragraph
+
+.footer
+  %p ©2014
