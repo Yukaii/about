@@ -22,14 +22,17 @@
 }
 
 .container {
-  padding: 20px 100px 100px 100px;
-  margin: 60px auto 0 auto;
+  padding: 10px 100px 100px 100px;
+  margin: 40px auto 0 auto;
   border-radius: 5px;
   // background-image: image-url('paper.jpg');
   background-color: #FFF2F2;
   line-height: 1.6em;
   // border: 2px solid $gray;
   @include box-sizing(border-box);
+  section {
+     margin-top: 50px;
+  }
 
   .p-wrapper 
   {
@@ -41,7 +44,7 @@
   }
 
   h2 {
-    
+   
   }
 
   h3 {
