@@ -67,7 +67,10 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
+
+   # To enable relative paths to assets via compass helper functions. Uncomment:
+   relative_assets = true
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
