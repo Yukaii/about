@@ -1,0 +1,23 @@
+@import "susy";
+@import "variables";
+@import "compass";
+
+@import "main";
+@import "header";
+@import "footer";
+
+
+h1 {
+  padding-top: 20px;
+}
+
+
+body {
+  position: relative;
+  margin-top: 70px;
+  padding-bottom: 80px;
+  background-color: #ffede4;
+  font-family: "Roboto Slab", serif;
+  z-index: 0;
+}
+

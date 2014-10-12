@@ -37,7 +37,7 @@
 
 # Reload the browser automatically whenever files change
 configure :development do
-  activate :livereload, :port => 4567, :apply_css_live => true
+  activate :livereload, :port => 35729, :apply_css_live => true
 end
 
 # Methods defined in the helpers block are available in templates
