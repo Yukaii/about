@@ -1,5 +1,6 @@
 .footer {
   // position: absolute;
+  // @include span(6 of 12);
   bottom: 0px;
   background-color: rgba(247, 193, 180, 0.48);
   margin: 0 auto;
@@ -8,6 +9,4 @@
   text-align: center;
   font-size: 12px;
   font-weight: bold;
-
-  @include box-sizing(border-box);
 }

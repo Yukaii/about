@@ -1,10 +1,19 @@
-@import "susy";
-@import "variables";
 @import "compass";
+@import "susy";
+@import "breakpoint";
 
-@import "main";
+
+
+@import "variables";
+@import "layout";
+
+
+
+@import "page";
 @import "header";
 @import "footer";
+
+
 
 
 h1 {
@@ -19,5 +28,9 @@ body {
   background-color: #ffede4;
   font-family: "Roboto Slab", serif;
   z-index: 0;
+}
+
+img {
+  width: inherit;
 }
 

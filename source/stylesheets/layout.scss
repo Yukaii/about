@@ -1,0 +1,5 @@
+@import "compass/typography"; // don't know why can't build without this
+
+$base-font-size: 18px;
+$base-line-height: 27px;
+@include establish-baseline();

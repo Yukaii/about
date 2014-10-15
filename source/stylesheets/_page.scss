@@ -1,0 +1,55 @@
+@include with-layout($page-style){
+  .container {
+    @include container;
+    max-width: 700px;
+    // @include susy-grid-background;
+    // padding: 10px 100px 100px 100px;
+    // margin: 40px auto 0 auto;
+    // border-radius: 5px;
+    // background-image: image-url('paper.jpg');
+    background-color: #FFF2F2;
+    @include breakpoint(320px) {
+      @include pad(.5em);
+    }
+
+    @include breakpoint(480px) {
+      @include pad(2em);
+    }
+
+    @include breakpoint($pad) {
+      @include pad(4em);
+    }
+
+    @include breakpoint($pc) {
+      @include pad(7em);
+    }
+    // line-height: 1.6em;
+    // border: 2px solid $gray;
+    
+    // section {
+    //    margin-top: 50px;
+    // }
+
+    // .p-wrapper 
+    // {
+    //   max-width: 400px;
+    //   margin: 0 auto;
+    //   p {
+    //     text-align: left;
+    //   }
+    // }
+
+    h2 {
+      // @include adjust-font-size-to(36px);
+      @include rhythm(0, 1, 0, 1, 40px);
+      line-height: 120%;
+      font-weight: bold;
+      // margin: 0 auto;
+    }
+
+    // h3 {
+    //   color: #8a8a8a;
+    //   text-align: left;
+    // }
+  }
+}
